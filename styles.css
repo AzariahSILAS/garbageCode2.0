@@ -1,0 +1,64 @@
+
+.hero-img{
+  background-image: url('assets/garbageCodeHeadingImg.png');
+  height: 500px;
+  /* border: solid black; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.firstBlockH1{
+  padding: 20px 0;
+  width: 50%;
+  color: white;
+}
+.firstBlockp{
+  padding-bottom: 20px;
+}
+.Gap{
+  gap: 100px;
+}
+.DisplayFlex p{ 
+  color: white;
+}
+.paddingbtm0{
+  padding: 20px 20px 0px 20px;
+}
+.card{
+  height: 300px;
+  width: 200px;
+  background-color: blueviolet;
+}
+.textContainer{
+  width: 50%;
+}
+#card1{
+  margin-right: -100px ;
+}
+#card2{
+  height: 350px;
+  width: 250px;
+  background-color: brown;
+  z-index: 2;
+}
+#card3{
+  margin-left: -100px
+}
+.blogCarousel{
+  align-items: center;
+}
+.thirdSection .textContent{
+  width: 50%;
+}
+#newestBlogImg{
+  width: 300px;
+  border-radius: 20px;
+}
+#newestBlog{
+  /* background-color: aqua; */
+  padding: 10px;
+  border: 10px;
+  box-shadow: 10px 10px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}

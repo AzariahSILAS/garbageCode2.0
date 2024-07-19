@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+}
+header{
+    background-color: #4A90E2;
+    height: 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #0e2035;
+}
+.DisplayFlex{
+    display: flex;
+}
+.SpaceBetween{
+    justify-content: space-between;
+}
+.padding10{
+    padding: 10px;
+}
+.padding20{
+    padding: 20px;
+}
+.linePadding20{
+    padding: 20px 0;
+}
+.marginCenter{
+    margin: 0 auto;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.textCenter{
+    text-align: center;
+}
+.logo{
+    width: 65px;
+  margin-left: 20px;
+}
+hr{
+    width: 500px;
+    height: 3px;
+    margin: 0px auto;
+    background-color: #0f0f0f;
+    border: #0f0f0f;
+}
+/* ----------------colors--------------- */
+
+.cBlue{
+    background-color: #4A90E2 ;
+ }
+ .cOrange{
+     background-color: #FF6F61;
+ }
+ .cGrey{
+   background-color: #4A4A4A;  
+ }
+ .cWhite{
+     background-color: #FFFFFF;  
+ }
+ .cOffWhite{
+     background-color: #F5F5F5;  
+ }
+ .darkBlue{
+    background-color: #154984;
+ }
+ .greenBlue{
+    background-color: #0f435c;
+ }
+ .purpleBlue{
+    background-color: #202884;
+ }
+ .lightGreen{
+    background-color: #158442 ;
+ }
+ .darkGreen{
+    background-color: #0f5c2e ; 
+ }
+ .textWhite{
+    color: #FFFFFF;
+ }
+/* 
+    #154984
+     #0f435c
+     #202884
+     #158442
+     #0f5c2e
+*/
