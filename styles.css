@@ -46,6 +46,11 @@
 }
 .blogCarousel{
   align-items: center;
+  justify-content: center;
+  border: solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
 }
 .thirdSection .textContent{
   width: 50%;
@@ -61,4 +66,20 @@
   box-shadow: 10px 10px 50px;
   border-radius: 10px;
   cursor: pointer;
+  width: 320px;
+}
+
+@media screen and (max-width: 922px) {
+  .DisplayBlock{
+      display: block;
+  }
+  .thirdSection .textContent, .textContainer{
+    width: 100%;
+  }
+  .hero-img{
+    height: 300px;
+  }
+  .DisplayBlock{
+    display: block;
+  }
 }

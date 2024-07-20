@@ -49,16 +49,18 @@ a{
 .content{
     max-width: 1300px;
     margin: 0 auto;
+    align-content: center;
+    border: solid black;
 }
 .textCenter{
     text-align: center;
 }
 .logo{
     width: 65px;
-  margin-left: 20px;
+    margin-left: 20px;
 }
 hr{
-    width: 500px;
+    width: 50%;
     height: 3px;
     margin: 0px auto;
     background-color: #0f0f0f;
@@ -106,3 +108,18 @@ hr{
      #158442
      #0f5c2e
 */
+
+@media screen and (max-width: 922px) {
+    .DisplayBlock{
+        display: block;
+    }
+    .thirdSection .textContent, .textContainer{
+      width: 100%;
+    }
+    .hero-img{
+      height: 300px;
+    }
+    .DisplayBlock{
+      display: block;
+    }
+  }
