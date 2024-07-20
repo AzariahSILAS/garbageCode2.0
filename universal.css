@@ -50,7 +50,7 @@ a{
     max-width: 1300px;
     margin: 0 auto;
     align-content: center;
-    border: solid black;
+    /* border: solid black; */
 }
 .textCenter{
     text-align: center;
