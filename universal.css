@@ -6,11 +6,21 @@
   box-sizing: border-box;
   margin: 0;
 }
+.hamburger{
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+-----------------
 header{
     background-color: #4A90E2;
     height: 70px;
 }
 nav{
+    display: flex;
+    justify-content: space-between;
+}
+.pcNav{
     display: flex;
     justify-content: space-between;
 }
@@ -121,5 +131,13 @@ hr{
     }
     .DisplayBlock{
       display: block;
+    }
+    .hamburger{
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .pcNav{
+        display: none;
     }
   }
