@@ -11,8 +11,22 @@
     cursor: pointer;
     display: none;
 }
+.mobileMenu{
+    height: 200px;
+    z-index: 6;
+    width: 100px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    box-shadow: 1px 1px 40px black;
+    left: 80%;
+    top: 69px;
+
+}
 -----------------
-header{
+#header{
     background-color: #4A90E2;
     height: 70px;
 }
